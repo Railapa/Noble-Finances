@@ -24,7 +24,7 @@ header h3{
 
 nav{
     display: flex;
-    gap: 2rem;
+    gap: 1rem;
     align-items: center;
     transition: all 0.5s ease;
 }
@@ -48,8 +48,161 @@ nav a{
     background-color: #2E4F21;
     padding: 1rem;
     border-radius: 2rem;
+    transition: all 0.5s ease;
 }
 
 .link-book:hover{
-    text-decoration: underline;
+    background-color: #3A5A28;
+    transform: scale(105%);
+    cursor: pointer;
+}
+
+main{
+    background-color: #A0F1BD;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 107vh;
+}
+
+main img{
+    width: 400px;
+}
+
+main h1{
+    color: #2E4F21;
+    text-align: left;
+    padding: 3rem 1rem 0.5rem;
+    font-size: 3rem;
+    font-weight: 400;
+    letter-spacing: -1px;
+}
+
+main p{
+    color: #2E4F21;
+    padding: 0.2rem 1rem;
+    font-size: 1.2rem;
+}
+
+.link-main-header{
+    width: 14rem;
+    background-color: #2E4F21;
+    margin-left: 1rem;
+    margin-top: 3rem;
+    padding: 1rem;
+    text-align: center;
+    border-radius: 5rem;
+    transition: all 0.5s ease;
+}
+
+.link-main-header a{
+    text-decoration: none;
+    color: #fff;
+}
+
+.link-main-header:hover{
+    background-color: #3A5A28;
+    transform: scale(105%);
+    cursor: pointer;
+}
+
+.contato-container{
+    text-align: center;
+    margin-top: 10rem;
+    margin-bottom: 10rem;
+}
+
+.contato-header{
+    display: flex;
+    flex-direction: column;
+    gap: 2.5rem;
+}
+
+.contato-header h3{
+    color: #2E4F21;
+}
+
+.contato-header h2{
+    color: #2E4F21;
+    font-size: 2.6rem;
+    font-weight: 350;
+    padding: 0 1rem;
+    font-family: "Poppins", sans-serif;
+}
+
+.contato-header p{
+    color: #2E4F21;
+    font-size: 1.2rem;
+}
+
+.contato-header a{
+    background-color: #2E4F21;
+    color: #fff;
+    padding: 1rem 1.5rem;
+    text-decoration: none;
+    margin: 0 auto;
+    border-radius: 5rem;
+    transition: all 0.5s ease;
+}
+
+.contato-header a:hover{
+    background-color: #3A5A28;
+    transform: scale(105%);
+    cursor: pointer;
+}
+
+.services-card1{
+    background-color: #D2F8DC;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 85vw;
+    height: 90vh;
+    margin: 0 auto;
+    border-radius: 1rem;
+}
+
+.services-card1 img{
+    width: 350px;
+}
+
+.img-card1{
+    padding-top: 2rem;
+}
+
+.header-card1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+    padding-top: 4.5rem;
+}
+
+.header-card1 h2{
+    color: #2E4F21;
+    font-weight: 400;
+    font-size: 2.2rem;
+    text-align: left;
+    margin: 0 auto;
+}
+
+.header-card1 p{
+    color: #2E4F21;
+    font-size: 1.1rem;
+    text-align: center;
+    padding: 0 2rem;
+}
+
+.info-card1{
+    display: flex;
+    gap: 1.5rem;
+    padding-top: 2.5rem;
+    text-align: left;
+}
+
+.info-card1 p {
+    background-color: #fff;
+    padding: 0.8rem;
+    color: #2E4F21;
+    border-radius: 0.5rem;
 }
