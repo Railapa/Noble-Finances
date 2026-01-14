@@ -1,13 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: Arial, Helvetica, sans-serif;
 }
 
-header{
+header {
     background-color: #A0F1BD;
     padding: 2rem;
     display: flex;
@@ -15,35 +15,39 @@ header{
     justify-content: space-between;
 }
 
-header h3{
-     font-family: "Poppins", sans-serif;
-     font-weight: 500;
-     color: #2E4F21;
-     font-size: 1.3rem;
+header h3 {
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    color: #2E4F21;
+    font-size: 1.3rem;
 }
 
-nav{
+nav {
     display: flex;
     gap: 1rem;
     align-items: center;
     transition: all 0.5s ease;
 }
 
-nav a{
+nav span {
+    display: none;
+}
+
+nav a {
     text-decoration: none;
     font-size: 1rem;
 }
 
-.link-services{
+.link-services {
     color: #2E4F21;
     font-weight: 600;
 }
 
-.link-services:hover{
+.link-services:hover {
     text-decoration: underline;
 }
 
-.link-book{
+.link-book {
     color: #fff;
     background-color: #2E4F21;
     padding: 1rem;
@@ -51,13 +55,13 @@ nav a{
     transition: all 0.5s ease;
 }
 
-.link-book:hover{
+.link-book:hover {
     background-color: #3A5A28;
     transform: scale(105%);
     cursor: pointer;
 }
 
-main{
+main {
     background-color: #A0F1BD;
     display: flex;
     flex-direction: column;
@@ -65,11 +69,11 @@ main{
     height: 107vh;
 }
 
-main img{
+main img {
     width: 400px;
 }
 
-main h1{
+main h1 {
     color: #2E4F21;
     text-align: left;
     padding: 3rem 1rem 0.5rem;
@@ -78,13 +82,13 @@ main h1{
     letter-spacing: -1px;
 }
 
-main p{
+main p {
     color: #2E4F21;
     padding: 0.2rem 1rem;
     font-size: 1.2rem;
 }
 
-.link-main-header{
+.link-main-header {
     width: 14rem;
     background-color: #2E4F21;
     margin-left: 1rem;
@@ -95,34 +99,34 @@ main p{
     transition: all 0.5s ease;
 }
 
-.link-main-header a{
+.link-main-header a {
     text-decoration: none;
     color: #fff;
 }
 
-.link-main-header:hover{
+.link-main-header:hover {
     background-color: #3A5A28;
     transform: scale(105%);
     cursor: pointer;
 }
 
-.contato-container{
+.contato-container {
     text-align: center;
     margin-top: 10rem;
     margin-bottom: 10rem;
 }
 
-.contato-header{
+.contato-header {
     display: flex;
     flex-direction: column;
     gap: 2.5rem;
 }
 
-.contato-header h3{
+.contato-header h3 {
     color: #2E4F21;
 }
 
-.contato-header h2{
+.contato-header h2 {
     color: #2E4F21;
     font-size: 2.6rem;
     font-weight: 350;
@@ -130,12 +134,12 @@ main p{
     font-family: "Poppins", sans-serif;
 }
 
-.contato-header p{
+.contato-header p {
     color: #2E4F21;
     font-size: 1.2rem;
 }
 
-.contato-header a{
+.contato-header a {
     background-color: #2E4F21;
     color: #fff;
     padding: 1rem 1.5rem;
@@ -145,19 +149,26 @@ main p{
     transition: all 0.5s ease;
 }
 
-.contato-header a:hover{
+.contato-header a:hover {
     background-color: #3A5A28;
     transform: scale(105%);
     cursor: pointer;
 }
 
-.services-container{
+.services-container {
     display: flex;
     flex-direction: column;
     gap: 4rem;
 }
 
-.services-card1{
+.card1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.services-card1 {
     background-color: #D2F8DC;
     display: flex;
     flex-direction: column;
@@ -168,15 +179,15 @@ main p{
     border-radius: 1rem;
 }
 
-.services-card1 img{
+.services-card1 img {
     width: 350px;
 }
 
-.img-card1{
+.img-card1 {
     padding-top: 2rem;
 }
 
-.header-card1{
+.header-card1 {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -184,7 +195,7 @@ main p{
     padding-top: 4.5rem;
 }
 
-.header-card1 h2{
+.header-card1 h2 {
     color: #2E4F21;
     font-weight: 400;
     font-size: 2.2rem;
@@ -192,14 +203,14 @@ main p{
     margin: 0 auto;
 }
 
-.header-card1 p{
+.header-card1 p {
     color: #2E4F21;
     font-size: 1.1rem;
     text-align: center;
     padding: 0 2rem;
 }
 
-.info-card1{
+.info-card1 {
     display: flex;
     gap: 1.5rem;
     padding-top: 2.5rem;
@@ -213,7 +224,14 @@ main p{
     border-radius: 0.5rem;
 }
 
-.services-card2{
+.card2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.services-card2 {
     background-color: #D2F8DC;
     display: flex;
     flex-direction: column;
@@ -224,15 +242,15 @@ main p{
     border-radius: 1rem;
 }
 
-.services-card2 img{
+.services-card2 img {
     width: 350px;
 }
 
-.img-card2{
+.img-card2 {
     padding-top: 5rem;
 }
 
-.header-card2{
+.header-card2 {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -240,7 +258,7 @@ main p{
     padding-top: 4.5rem;
 }
 
-.header-card2 h2{
+.header-card2 h2 {
     color: #2E4F21;
     font-weight: 400;
     font-size: 2.2rem;
@@ -248,14 +266,14 @@ main p{
     margin: 0 auto;
 }
 
-.header-card2 p{
+.header-card2 p {
     color: #2E4F21;
     font-size: 1.1rem;
     text-align: center;
     padding: 0 2rem;
 }
 
-.info-card2{
+.info-card2 {
     display: flex;
     gap: 1.5rem;
     padding-top: 2rem;
@@ -269,7 +287,14 @@ main p{
     border-radius: 0.5rem;
 }
 
-.services-card3{
+.card3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.services-card3 {
     background-color: #D2F8DC;
     display: flex;
     flex-direction: column;
@@ -280,15 +305,15 @@ main p{
     border-radius: 1rem;
 }
 
-.services-card3 img{
+.services-card3 img {
     width: 270px;
 }
 
-.img-card3{
+.img-card3 {
     padding-top: 2rem;
 }
 
-.header-card3{
+.header-card3 {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -296,7 +321,7 @@ main p{
     padding-top: 4.5rem;
 }
 
-.header-card3 h2{
+.header-card3 h2 {
     color: #2E4F21;
     font-weight: 400;
     font-size: 2.2rem;
@@ -305,14 +330,14 @@ main p{
     padding: 0 0.2rem;
 }
 
-.header-card3 p{
+.header-card3 p {
     color: #2E4F21;
     font-size: 1.1rem;
     text-align: center;
     padding: 0 2rem;
 }
 
-.info-card3{
+.info-card3 {
     display: flex;
     gap: 1.5rem;
     padding-top: 2.5rem;
@@ -326,7 +351,7 @@ main p{
     border-radius: 0.5rem;
 }
 
-.clients-container{
+.clients-container {
     display: flex;
     flex-direction: column;
     gap: 2.5rem;
@@ -339,65 +364,60 @@ main p{
     margin-top: 5rem;
 }
 
-.clients-header{
-    font-size: 1.3rem;
+.clients-container h2 {
+    font-size: 2rem;
     text-align: center;
     padding: 3rem 0.5rem 0 0.5rem;
     font-family: "Poppins", sans-serif;
     color: #2E4F21;
+    font-weight: 500;
 }
 
-.clients-header h2{
-    font-weight: 400;
-    font-size: 2.5rem;
-
-}
-
-.clients-infos{
+.clients-infos {
     display: flex;
     flex-direction: row;
     padding: 0.8rem 1rem;
     justify-content: center;
     align-items: center;
-   text-align: center;
-   margin: 0 auto;
+    text-align: center;
+    margin: 0 auto;
 }
 
-.designer{
+.designer {
     display: flex;
     flex-direction: column;
     gap: 0.3rem;
-    
+
 }
 
-.designer h5{
+.designer h5 {
     color: #2E4F21;
     font-family: "Poppins", sans-serif;
     font-weight: 600;
 }
 
-.designer p{
+.designer p {
     color: #7D9276;
 }
 
-.commercial{
+.commercial {
     display: flex;
     flex-direction: column;
     gap: 0.8rem;
     padding: 0 1.5rem;
 }
 
-.commercial h5{
+.commercial h5 {
     color: #2E4F21;
     font-family: "Poppins", sans-serif;
     font-weight: 600;
 }
 
-.commercial p{
+.commercial p {
     color: #7D9276;
 }
 
-.stylist{
+.stylist {
     display: flex;
     flex-direction: column;
     gap: 1rem;
@@ -406,193 +426,198 @@ main p{
     padding: 1.4rem;
 }
 
-.stylist h5{
+.stylist h5 {
     color: #fff;
     font-family: "Poppins", sans-serif;
     font-weight: 600;
 }
 
-.stylist p{
+.stylist p {
     color: #a5ba9e;
 }
 
-.clients-paragrafo{
+.clients-paragrafo p {
+    font-weight: 400;
     color: #2E4F21;
     font-family: "Poppins", sans-serif;
     display: flex;
-    padding: 0 1rem;
-    font-size: 1.3rem;
+    padding: 0 3rem;
+    font-size: 1.4rem;
 }
 
-.clients-paragrafo p{
-    font-weight: 700;
+.margaret-perfil {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 1rem;
+    gap: 4rem;
 }
 
-.margaret{
+.margaret {
     display: flex;
     align-items: center;
     gap: 1rem;
     font-family: "Poppins", sans-serif;
     color: #2E4F21;
-    padding-top: 1rem;
 }
 
-.margaret h5{
+.margaret h5 {
     font-size: 1.2rem;
     font-weight: 400;
 }
 
-.img-grande-celular{
+.img-grande-celular {
     padding-top: 5rem;
 }
 
-.img-grande-celular img{
+.img-grande-celular img {
     width: 100%;
 }
 
-.finance{
+.finance {
     padding-top: 5rem;
     padding-bottom: 3rem;
-    
+
 }
 
-.finance-header{
+.finance-header {
     display: flex;
     flex-direction: column;
     gap: 2rem;
     padding: 1rem;
 }
 
-.finance-header h2{
+.finance-header h2 {
     font-size: 2.8rem;
     color: #2E4F21;
     font-family: "Poppins", sans-serif;
     font-weight: 400;
 }
 
-.finance-header p{
+.finance-header p {
     color: #2E4F21;
     font-size: 1.1rem;
 }
 
-.finances-freelancers{
+.finances-freelancers {
     padding-top: 3rem;
     padding-left: 1rem;
     border-top: 1px solid #2E4F21;
 }
 
-.freelancers-header{
+.freelancers-header {
     display: flex;
     flex-direction: column;
     padding-top: 3rem;
     gap: 2.5rem;
 }
 
-.freelancers-header h2{
+.freelancers-header h2 {
     color: #2E4F21;
     font-family: "Poppins", sans-serif;
     font-weight: 500;
     font-size: 2rem;
 }
 
-.freelancers-header h3{
+.freelancers-header h3 {
     color: #2E4F21;
     font-family: "Poppins", sans-serif;
     font-weight: 400;
     font-size: 1.2rem;
 }
 
-.freelancers-header p{
+.freelancers-header p {
     color: #2E4F21;
     font-size: 1.1rem;
 }
 
-.freelancers-img img{
+.freelancers-img img {
     width: 45px;
 }
 
-.finances-familes{
+.finances-familes {
     padding-top: 5rem;
     padding-left: 1rem;
-    
+
 }
 
-.familes-header{
+.familes-header {
     display: flex;
     flex-direction: column;
     padding-top: 3rem;
     gap: 2.5rem;
 }
 
-.familes-header h2{
+.familes-header h2 {
     color: #2E4F21;
     font-family: "Poppins", sans-serif;
     font-weight: 500;
     font-size: 2rem;
 }
 
-.familes-header h3{
+.familes-header h3 {
     color: #2E4F21;
     font-family: "Poppins", sans-serif;
     font-weight: 400;
     font-size: 1.2rem;
 }
 
-.familes-header p{
+.familes-header p {
     color: #2E4F21;
     font-size: 1.1rem;
 }
 
-.familes-img img{
+.familes-img img {
     width: 45px;
 }
 
-.finances-businesses{
+.finances-businesses {
     padding-top: 5rem;
     padding-left: 1rem;
-    
+
 }
 
-.businesses-header{
+.businesses-header {
     display: flex;
     flex-direction: column;
     padding-top: 3rem;
     gap: 2.5rem;
 }
 
-.businesses-header h2{
+.businesses-header h2 {
     color: #2E4F21;
     font-family: "Poppins", sans-serif;
     font-weight: 500;
     font-size: 2rem;
 }
 
-.businesses-header h3{
+.businesses-header h3 {
     color: #2E4F21;
     font-family: "Poppins", sans-serif;
     font-weight: 400;
     font-size: 1.2rem;
 }
 
-.businesses-header p{
+.businesses-header p {
     color: #2E4F21;
     font-size: 1.1rem;
 }
 
-.businesses-img img{
+.businesses-img img {
     width: 45px;
 }
 
-.custom{
+.custom {
     padding-top: 8rem;
 }
 
-.img-custom{
+.img-custom {
     display: flex;
     justify-content: center;
 }
 
-.custom-card{
+.custom-card {
     background-color: #2E4F21;
     width: 67vw;
     height: 70vh;
@@ -606,7 +631,7 @@ main p{
     margin-top: 5rem;
 }
 
-.custom-card h3{
+.custom-card h3 {
     color: #fff;
     font-family: "Poppins", sans-serif;
     font-weight: 400;
@@ -615,21 +640,21 @@ main p{
     line-height: 2.3rem;
 }
 
-.custom-card p{
+.custom-card p {
     color: #fff;
     padding: 0 3rem;
     font-size: 1.1rem;
     font-weight: 400;
 }
 
-.custom-link{
+.custom-link {
     padding-top: 0.5rem;
     display: flex;
     align-self: flex-start;
     padding-left: 3rem;
 }
 
-.custom-card a{
+.custom-card a {
     background-color: #fff;
     padding: 0.9rem 1rem;
     border-radius: 1.5rem;
@@ -638,20 +663,22 @@ main p{
     transition: all 0.5s ease;
 }
 
-.custom-card a:hover{
+.custom-card a:hover {
     transform: scale(105%);
 }
 
-.connect{
-    padding-top: 10rem;
+.connect {
+    padding-top: 6rem;
+    padding-bottom: 6rem;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     text-align: center;
     background-color: #fafafa;
     margin-top: 5rem;
 }
 
-.connect h2{
+.connect h2 {
     font-size: 2.5rem;
     font-weight: 400;
     color: #2E4F21;
@@ -659,10 +686,238 @@ main p{
     padding-bottom: 6rem;
 }
 
-.connect a{
+.connect-link {
+    display: flex;
+    margin: 0 auto;
+}
+
+.connect-link a {
     background-color: #2E4F21;
     padding: 1.3rem 3.5rem;
     color: #fff;
     border-radius: 2rem;
     text-decoration: none;
+    transition: all 0.5s ease;
+}
+
+.connect-link a:hover {
+    transform: scale(105%);
+    background-color: #3A5A28;
+}
+
+footer {
+    height: 60vh;
+    background-color: #2E4F21;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 2rem;
+}
+
+footer h2 {
+    color: #fff;
+    font-family: "Poppins", sans-serif;
+    font-size: 2rem;
+    font-weight: 500;
+}
+
+.footer-links {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-link-services {
+    text-decoration: none;
+    color: #fff;
+}
+
+.footer-link-services:hover {
+    text-decoration: underline;
+}
+
+.footer-link-book {
+    text-decoration: none;
+    background-color: #fff;
+    color: #2E4F21;
+    border-radius: 2rem;
+    padding: 0.8rem 1.2rem;
+    font-family: "Poppins", sans-serif;
+    font-size: 0.9rem;
+    font-weight: 500;
+}
+
+.footer-comercial {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.footer-comercial p {
+    color: #fff;
+}
+
+.footer-comercial span {
+    color: #fff;
+}
+
+@media (min-width:800px) {
+    main {
+        justify-content: space-between;
+        flex-direction: row-reverse;
+        padding-bottom: 15rem;
+        padding: 0 1rem 15rem 1rem;
+    }
+
+    .main-header {
+        width: 60%;
+    }
+
+    .main-header h1 {
+        font-size: 3rem;
+    }
+
+    .main-header p {
+        font-size: 1.5rem;
+    }
+
+    nav span {
+        display: inline;
+    }
+
+    .contato-header h3 {
+        font-size: 0.8rem;
+    }
+
+    .contato-header h2 {
+        font-weight: 400;
+        padding: 0 4rem;
+        font-size: 3rem;
+        line-height: 4rem;
+    }
+
+    .services-card1 {
+        flex-direction: row;
+        height: 70vh;
+        width: 95vw;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .header-card1 h2 {
+        padding: 0;
+    }
+
+    .header-card1 {
+        justify-content: center;
+        align-items: center;
+        padding: 0;
+        margin: 0;
+
+    }
+
+    .services-card2 {
+        flex-direction: row;
+        height: 70vh;
+        width: 95vw;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .header-card2 h2 {
+        padding: 0;
+    }
+
+    .services-card3 {
+        flex-direction: row;
+        height: 70vh;
+        width: 95vw;
+        align-items: center;
+        justify-content: space-between;
+        padding: 0 1rem;
+    }
+
+    .header-card3 h2 {
+        padding: 0;
+    }
+
+    .clients-container {
+        box-shadow: 0 0 0;
+        padding-bottom: 40rem;
+    }
+
+    .clients-container h2 {
+        font-size: 2.7rem;
+    }
+
+    .clients-margaret {
+        display: flex;
+        justify-content: space-between;
+        gap: 3rem;
+        padding-top: 1rem;
+    }
+
+    .margaret-perfil {
+        width: 50%;
+    }
+
+    .clients-infos {
+        flex-direction: column;
+        gap: 3rem;
+    }
+
+    .designer {
+        text-align: left;
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+        background-color: #2E4F21;
+        border-radius: 0.3rem;
+        padding: 1.4rem;
+        width: 30vw;
+    }
+
+    .designer h5 {
+        color: #fff;
+        font-family: "Poppins", sans-serif;
+        font-weight: 400;
+        font-size: 1.2rem;
+    }
+
+    .commercial{
+        text-align: left;
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+        background-color: #fff;
+        border-radius: 0.3rem;
+        padding: 1.4rem;
+        width: 30vw;
+    }
+
+    .commercial h5{
+        color: #2E4F21;
+        font-family: "Poppins", sans-serif;
+        font-weight: 400;
+        font-size: 1.2rem;
+        width: 130%;
+    }
+
+    .stylist{
+        text-align: left;
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+        background-color: #fff;
+        border-radius: 0.3rem;
+        padding: 1.4rem;
+        width: 30vw;
+    }
+
+    .stylist h5{
+        color: #2E4F21;
+        font-family: "Poppins", sans-serif;
+        font-weight: 400;
+        font-size: 1.2rem;
+    }
 }
