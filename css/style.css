@@ -453,6 +453,7 @@ main p{
 .finance{
     padding-top: 5rem;
     padding-bottom: 3rem;
+    
 }
 
 .finance-header{
@@ -474,7 +475,7 @@ main p{
     font-size: 1.1rem;
 }
 
-.finances-infos{
+.finances-freelancers{
     padding-top: 3rem;
     padding-left: 1rem;
     border-top: 1px solid #2E4F21;
@@ -485,4 +486,183 @@ main p{
     flex-direction: column;
     padding-top: 3rem;
     gap: 2.5rem;
+}
+
+.freelancers-header h2{
+    color: #2E4F21;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-size: 2rem;
+}
+
+.freelancers-header h3{
+    color: #2E4F21;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-size: 1.2rem;
+}
+
+.freelancers-header p{
+    color: #2E4F21;
+    font-size: 1.1rem;
+}
+
+.freelancers-img img{
+    width: 45px;
+}
+
+.finances-familes{
+    padding-top: 5rem;
+    padding-left: 1rem;
+    
+}
+
+.familes-header{
+    display: flex;
+    flex-direction: column;
+    padding-top: 3rem;
+    gap: 2.5rem;
+}
+
+.familes-header h2{
+    color: #2E4F21;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-size: 2rem;
+}
+
+.familes-header h3{
+    color: #2E4F21;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-size: 1.2rem;
+}
+
+.familes-header p{
+    color: #2E4F21;
+    font-size: 1.1rem;
+}
+
+.familes-img img{
+    width: 45px;
+}
+
+.finances-businesses{
+    padding-top: 5rem;
+    padding-left: 1rem;
+    
+}
+
+.businesses-header{
+    display: flex;
+    flex-direction: column;
+    padding-top: 3rem;
+    gap: 2.5rem;
+}
+
+.businesses-header h2{
+    color: #2E4F21;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-size: 2rem;
+}
+
+.businesses-header h3{
+    color: #2E4F21;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-size: 1.2rem;
+}
+
+.businesses-header p{
+    color: #2E4F21;
+    font-size: 1.1rem;
+}
+
+.businesses-img img{
+    width: 45px;
+}
+
+.custom{
+    padding-top: 8rem;
+}
+
+.img-custom{
+    display: flex;
+    justify-content: center;
+}
+
+.custom-card{
+    background-color: #2E4F21;
+    width: 67vw;
+    height: 70vh;
+    display: flex;
+    gap: 2.5rem;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border-radius: 1rem;
+    margin: 0 auto;
+    margin-top: 5rem;
+}
+
+.custom-card h3{
+    color: #fff;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-size: 2rem;
+    padding: 0.5rem 3rem;
+    line-height: 2.3rem;
+}
+
+.custom-card p{
+    color: #fff;
+    padding: 0 3rem;
+    font-size: 1.1rem;
+    font-weight: 400;
+}
+
+.custom-link{
+    padding-top: 0.5rem;
+    display: flex;
+    align-self: flex-start;
+    padding-left: 3rem;
+}
+
+.custom-card a{
+    background-color: #fff;
+    padding: 0.9rem 1rem;
+    border-radius: 1.5rem;
+    text-decoration: none;
+    color: #2E4F21;
+    transition: all 0.5s ease;
+}
+
+.custom-card a:hover{
+    transform: scale(105%);
+}
+
+.connect{
+    padding-top: 10rem;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    background-color: #fafafa;
+    margin-top: 5rem;
+}
+
+.connect h2{
+    font-size: 2.5rem;
+    font-weight: 400;
+    color: #2E4F21;
+    padding: 0 3rem;
+    padding-bottom: 6rem;
+}
+
+.connect a{
+    background-color: #2E4F21;
+    padding: 1.3rem 3.5rem;
+    color: #fff;
+    border-radius: 2rem;
+    text-decoration: none;
 }
