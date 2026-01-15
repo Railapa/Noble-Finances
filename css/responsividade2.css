@@ -1,0 +1,123 @@
+@media (min-width:1200px){
+    .main-header h1{
+        font-size: 4rem;
+    }
+
+    .main-header p{
+        font-size: 1.2rem;
+        padding-top: 1rem;
+    }
+
+    .contato-header h2{
+        padding: 0 15rem;
+    }
+
+    .services-card1{
+        width: 75vw;
+    }
+
+    .img-card1{
+        padding-left: 3rem;
+    }
+
+    .header-card1 p{
+        padding: 0 7rem;
+    }
+
+     .services-card2{
+        width: 75vw;
+    }
+
+     .img-card2{
+        padding-right: 3rem;
+    }
+
+    .header-card2 p{
+        padding: 0 7rem;
+    }
+
+     .services-card3{
+        width: 75vw;
+    }
+
+    .header-card3 p{
+        padding: 0 7rem;
+    }
+
+    .img-card3{
+        padding-left: 3rem;
+    }
+
+    .clients-paragrafo p{
+        font-size: 2rem;
+    }
+
+    .finances-container{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 3rem;
+        padding: 5rem 3rem;
+    }
+
+    .finances-freelancers{
+        border: none;
+        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+        border-radius: 0.5rem;
+        padding: 2rem;
+    }
+
+    .finances-familes{
+        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+        border-radius: 0.5rem;
+        padding: 2rem;
+    }
+
+    .finances-businesses{
+        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+        border-radius: 0.5rem;
+        padding: 1.63rem;
+    }
+
+    .finance-header{
+        text-align: center;
+    }
+
+    .finance-header h2{
+        font-size: 3.5rem;
+    }
+
+    .finance-header p{
+        padding: 0 10rem;
+        font-size: 1.2rem;
+    }
+
+    .img-custom img {
+        width: 30vw;
+        height: 66vh;
+    }
+    .custom{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .custom-card{
+        text-align: left;
+        gap: 3rem;
+    }
+
+    .custom-card h3{
+        font-size: 2.5rem;
+        line-height: 3rem;
+    }
+
+    .connect{
+        padding-top: 2rem;
+    }
+
+    .connect h2{
+        padding: 7rem 8rem;
+        font-size: 3.8rem;
+    }
+}
