@@ -70,7 +70,7 @@ main {
 }
 
 main img {
-    width: 400px;
+    width: 370px;
 }
 
 main h1 {
@@ -173,8 +173,8 @@ main p {
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 85vw;
-    height: 90vh;
+    width: 90vw;
+    height: 65vh;
     margin: 0 auto;
     border-radius: 1rem;
 }
@@ -236,8 +236,8 @@ main p {
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 85vw;
-    height: 90vh;
+    width: 90vw;
+    height: 65vh;
     margin: 0 auto;
     border-radius: 1rem;
 }
@@ -299,8 +299,8 @@ main p {
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 85vw;
-    height: 90vh;
+    width: 90vw;
+    height: 65vh;
     margin: 0 auto;
     border-radius: 1rem;
 }
@@ -358,7 +358,7 @@ main p {
     gap: 2.5rem;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
     width: 80vw;
-    height: 85vh;
+    height: 70vh;
     border-radius: 0.5rem;
     align-items: center;
     margin: 0 auto;
@@ -368,7 +368,7 @@ main p {
 .clients-container h2 {
     font-size: 2rem;
     text-align: center;
-    padding: 3rem 0.5rem 0 0.5rem;
+    padding: 4.5rem 0.5rem 0 0.5rem;
     font-family: "Poppins", sans-serif;
     color: #2E4F21;
     font-weight: 500;
@@ -624,7 +624,7 @@ main p {
 .custom-card {
     background-color: #2E4F21;
     width: 67vw;
-    height: 70vh;
+    height: 60vh;
     display: flex;
     gap: 1.5rem;
     align-items: center;

@@ -65,18 +65,24 @@
         box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
         border-radius: 0.5rem;
         padding: 2rem;
+        height: 60vh;
+        width: 100vw;
     }
 
     .finances-familes{
         box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
         border-radius: 0.5rem;
         padding: 2rem;
+        height: 60vh;
+        width: 100vw;
     }
 
     .finances-businesses{
         box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
         border-radius: 0.5rem;
-        padding: 1.63rem;
+        padding: 2rem;
+        height: 60vh;
+        width: 100vw;
     }
 
     .finance-header{
@@ -90,6 +96,10 @@
     .finance-header p{
         padding: 0 10rem;
         font-size: 1.2rem;
+    }
+
+    .businesses-header h2{
+        font-size: 1.6rem;
     }
 
     .img-custom img {
